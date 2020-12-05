@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[50  comments recived for User with user Id 3 for all his posts.]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is : 200]]>
+    </line>
+    <line>
+      <![CDATA[|User Name  |Full Name  |Email Id |Total number of posts|Total number of Commets received |]]>
+    </line>
+    <line>
+      <![CDATA[|Bret|Leanne Graham|Sincere@april.biz|10|50|]]>
+    </line>
+    <line>
+      <![CDATA[|Antonette|Ervin Howell|Shanna@melissa.tv|10|50|]]>
+    </line>
+    <line>
+      <![CDATA[|Samantha|Clementine Bauch|Nathan@yesenia.net|10|50|]]>
+    </line>
+    <line>
+      <![CDATA[|Karianne|Patricia Lebsack|Julianne.OConner@kory.org|10|50|]]>
+    </line>
+    <line>
+      <![CDATA[|Kamren|Chelsey Dietrich|Lucio_Hettinger@annie.ca|10|50|]]>
+    </line>
+    <line>
+      <![CDATA[|Leopoldo_Corkery|Mrs. Dennis Schulist|Karley_Dach@jasper.info|10|50|]]>
+    </line>
+    <line>
+      <![CDATA[|Elwyn.Skiles|Kurtis Weissnat|Telly.Hoeger@billy.biz|10|50|]]>
+    </line>
+    <line>
+      <![CDATA[|Maxime_Nienow|Nicholas Runolfsdottir V|Sherwood@rosamond.me|10|50|]]>
+    </line>
+    <line>
+      <![CDATA[|Delphine|Glenna Reichert|Chaim_McDermott@dana.io|10|50|]]>
+    </line>
+    <line>
+      <![CDATA[|Moriah.Stanton|Clementina DuBuque|Rey.Padberg@karina.biz|10|50|]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is : 200]]>
+    </line>
+    <line>
+      <![CDATA[10 posts as published by the user with user ID 9.]]>
+    </line>
+    <line>
+      <![CDATA[no such alert
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAGHAVENDRAS', ip: '172.16.136.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\RAGHAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5bcf83f89d5e62427b9a6f576c077070]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is : 200]]>
+    </line>
+    <line>
+      <![CDATA[10 posts as published by the user with user ID 9.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="138576" started-at="2020-12-05T10:39:25Z" finished-at="2020-12-05T10:41:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="138576" started-at="2020-12-05T10:39:25Z" finished-at="2020-12-05T10:41:44Z">
+      <class name="com.apiassidgment.tests.Test2">
+        <test-method status="PASS" signature="testPostId3()[pri:0, instance:com.apiassidgment.tests.Test2@358ee631]" name="testPostId3" duration-ms="3609" started-at="2020-12-05T10:39:25Z" finished-at="2020-12-05T10:39:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[50  comments recived for User with user Id 3 for all his posts.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPostId3 -->
+      </class> <!-- com.apiassidgment.tests.Test2 -->
+      <class name="com.apiassidgment.tests.Test1">
+        <test-method status="PASS" signature="testUserId9()[pri:1, instance:com.apiassidgment.tests.Test1@233fe9b6]" name="testUserId9" duration-ms="237" started-at="2020-12-05T10:40:01Z" finished-at="2020-12-05T10:40:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is : 200]]>
+            </line>
+            <line>
+              <![CDATA[10 posts as published by the user with user ID 9.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUserId9 -->
+        <test-method status="PASS" signature="testUserId9_two()[pri:2, instance:com.apiassidgment.tests.Test1@233fe9b6]" name="testUserId9_two" duration-ms="286" started-at="2020-12-05T10:41:43Z" finished-at="2020-12-05T10:41:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is : 200]]>
+            </line>
+            <line>
+              <![CDATA[10 posts as published by the user with user ID 9.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUserId9_two -->
+      </class> <!-- com.apiassidgment.tests.Test1 -->
+      <class name="com.seleniumassignment.tests.ClearTrip">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.seleniumassignment.tests.ClearTrip@78e94dcf]" name="startTest" is-config="true" duration-ms="16" started-at="2020-12-05T10:39:25Z" finished-at="2020-12-05T10:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.seleniumassignment.tests.ClearTrip@78e94dcf]" name="precondition" is-config="true" duration-ms="5890" started-at="2020-12-05T10:40:01Z" finished-at="2020-12-05T10:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="testcleartrip()[pri:1, instance:com.seleniumassignment.tests.ClearTrip@78e94dcf]" name="testcleartrip" duration-ms="96126" started-at="2020-12-05T10:40:07Z" finished-at="2020-12-05T10:41:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[no such alert
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAGHAVENDRAS', ip: '172.16.136.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\RAGHAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5bcf83f89d5e62427b9a6f576c077070]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcleartrip -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:com.seleniumassignment.tests.ClearTrip@78e94dcf]" name="postcondition" is-config="true" duration-ms="72" started-at="2020-12-05T10:41:43Z" finished-at="2020-12-05T10:41:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcleartrip status=SUCCESS method=ClearTrip.testcleartrip()[pri:1, instance:com.seleniumassignment.tests.ClearTrip@78e94dcf] output=no such alert
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAGHAVENDRAS', ip: '172.16.136.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\RAGHAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5bcf83f89d5e62427b9a6f576c077070]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method status="PASS" signature="stopTest()[pri:0, instance:com.seleniumassignment.tests.ClearTrip@78e94dcf]" name="stopTest" is-config="true" duration-ms="277" started-at="2020-12-05T10:41:44Z" finished-at="2020-12-05T10:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+      </class> <!-- com.seleniumassignment.tests.ClearTrip -->
+      <class name="com.apiassidgment.tests.PrintAllUsers">
+        <test-method status="PASS" signature="testPrintAllUsers()[pri:0, instance:com.apiassidgment.tests.PrintAllUsers@ec756bd]" name="testPrintAllUsers" duration-ms="31977" started-at="2020-12-05T10:39:29Z" finished-at="2020-12-05T10:40:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is : 200]]>
+            </line>
+            <line>
+              <![CDATA[|User Name  |Full Name  |Email Id |Total number of posts|Total number of Commets received |]]>
+            </line>
+            <line>
+              <![CDATA[|Bret|Leanne Graham|Sincere@april.biz|10|50|]]>
+            </line>
+            <line>
+              <![CDATA[|Antonette|Ervin Howell|Shanna@melissa.tv|10|50|]]>
+            </line>
+            <line>
+              <![CDATA[|Samantha|Clementine Bauch|Nathan@yesenia.net|10|50|]]>
+            </line>
+            <line>
+              <![CDATA[|Karianne|Patricia Lebsack|Julianne.OConner@kory.org|10|50|]]>
+            </line>
+            <line>
+              <![CDATA[|Kamren|Chelsey Dietrich|Lucio_Hettinger@annie.ca|10|50|]]>
+            </line>
+            <line>
+              <![CDATA[|Leopoldo_Corkery|Mrs. Dennis Schulist|Karley_Dach@jasper.info|10|50|]]>
+            </line>
+            <line>
+              <![CDATA[|Elwyn.Skiles|Kurtis Weissnat|Telly.Hoeger@billy.biz|10|50|]]>
+            </line>
+            <line>
+              <![CDATA[|Maxime_Nienow|Nicholas Runolfsdottir V|Sherwood@rosamond.me|10|50|]]>
+            </line>
+            <line>
+              <![CDATA[|Delphine|Glenna Reichert|Chaim_McDermott@dana.io|10|50|]]>
+            </line>
+            <line>
+              <![CDATA[|Moriah.Stanton|Clementina DuBuque|Rey.Padberg@karina.biz|10|50|]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPrintAllUsers -->
+      </class> <!-- com.apiassidgment.tests.PrintAllUsers -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

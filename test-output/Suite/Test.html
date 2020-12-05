@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 05 16:09:25 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>138 seconds (138576 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.apiassidgment.tests.Test2.testPostId3()'><b>testPostId3</b><br>Test class: com.apiassidgment.tests.Test2<br/>
+<a href="#Output-1396385390" onClick='toggleBox("Output-1396385390", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1396385390" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1396385390">
+50  comments recived for User with user Id 3 for all his posts.<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.apiassidgment.tests.Test2@358ee631</td></tr>
+<tr>
+<td title='com.apiassidgment.tests.PrintAllUsers.testPrintAllUsers()'><b>testPrintAllUsers</b><br>Test class: com.apiassidgment.tests.PrintAllUsers<br/>
+<a href="#Output-727860268" onClick='toggleBox("Output-727860268", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-727860268" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-727860268">
+Status Code is : 200<br/>
+|User Name  |Full Name  |Email Id |Total number of posts|Total number of Commets received |<br/>
+|Bret|Leanne Graham|Sincere@april.biz|10|50|<br/>
+|Antonette|Ervin Howell|Shanna@melissa.tv|10|50|<br/>
+|Samantha|Clementine Bauch|Nathan@yesenia.net|10|50|<br/>
+|Karianne|Patricia Lebsack|Julianne.OConner@kory.org|10|50|<br/>
+|Kamren|Chelsey Dietrich|Lucio_Hettinger@annie.ca|10|50|<br/>
+|Leopoldo_Corkery|Mrs. Dennis Schulist|Karley_Dach@jasper.info|10|50|<br/>
+|Elwyn.Skiles|Kurtis Weissnat|Telly.Hoeger@billy.biz|10|50|<br/>
+|Maxime_Nienow|Nicholas Runolfsdottir V|Sherwood@rosamond.me|10|50|<br/>
+|Delphine|Glenna Reichert|Chaim_McDermott@dana.io|10|50|<br/>
+|Moriah.Stanton|Clementina DuBuque|Rey.Padberg@karina.biz|10|50|<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.apiassidgment.tests.PrintAllUsers@ec756bd</td></tr>
+<tr>
+<td title='com.apiassidgment.tests.Test1.testUserId9()'><b>testUserId9</b><br>Test class: com.apiassidgment.tests.Test1<br/>
+<a href="#Output-461516748" onClick='toggleBox("Output-461516748", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-461516748" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-461516748">
+Status Code is : 200<br/>
+10 posts as published by the user with user ID 9.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.apiassidgment.tests.Test1@233fe9b6</td></tr>
+<tr>
+<td title='com.apiassidgment.tests.Test1.testUserId9_two()'><b>testUserId9_two</b><br>Test class: com.apiassidgment.tests.Test1<br/>
+<a href="#Output-728526866" onClick='toggleBox("Output-728526866", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-728526866" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-728526866">
+Status Code is : 200<br/>
+10 posts as published by the user with user ID 9.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.apiassidgment.tests.Test1@233fe9b6</td></tr>
+<tr>
+<td title='com.seleniumassignment.tests.ClearTrip.testcleartrip()'><b>testcleartrip</b><br>Test class: com.seleniumassignment.tests.ClearTrip<br/>
+<a href="#Output-1898167916" onClick='toggleBox("Output-1898167916", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1898167916" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1898167916">
+no such alert
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAGHAVENDRAS', ip: '172.16.136.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\RAGHAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5bcf83f89d5e62427b9a6f576c077070<br/>
+</div>
+</td>
+<td></td>
+<td>96</td>
+<td>com.seleniumassignment.tests.ClearTrip@78e94dcf</td></tr>
+</table><p>
+</body>
+</html>
